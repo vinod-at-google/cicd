@@ -21,6 +21,7 @@ FROM python:3.8
 COPY requirements.txt ./
 
 # Install production dependencies.
+# New comment
 RUN pip install -r requirements.txt
 
 # [START run_imageproc_dockerfile_imagemagick]
